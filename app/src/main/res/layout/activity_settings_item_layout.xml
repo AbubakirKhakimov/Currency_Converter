@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardSettings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:contentPadding="12dp"
+        app:cardCornerRadius="8dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        app:cardElevation="4dp"
+        style="@style/ThemeCards">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/settingName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sevimlilarni tahrirlash"
+                style="@style/ThemeText"
+                android:layout_marginBottom="8dp"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/currentValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="[USD,RUB,UZS]"
+                android:textColor="#4CAF50"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:layout_marginRight="40dp"
+                android:maxLines="1"
+                android:ellipsize="end"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
+            android:layout_gravity="right|center_vertical"/>
+
+    </androidx.cardview.widget.CardView>
+
+</FrameLayout>

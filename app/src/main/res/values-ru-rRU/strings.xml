@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Конвертер валют</string>
+    <string name="intro_text">Добро пожаловать в\nконвертер валют</string>
+    <string name="converterFragmentName">Конвертер</string>
+    <string name="uzbCurrencyName">Узбекский сум</string>
+    <string name="favoritesFragmentName">Избранное</string>
+    <string name="homeFragmentName">Главная</string>
+    <string name="homeFragmentTitle">Текущие курсы валют</string>
+    <string name="notConnectionTitle">Соединение с сервером потеряно!</string>
+    <string name="notConnectionAdvice">Пожалуйста, проверьте ваше интернет-соединение и попробуйте еще раз!</string>
+    <string name="listCurrencyFragmentName">Валюты</string>
+    <string name="settingsFragmentName">Настройки</string>
+    <string name="contactDeveloper">Связаться с нами!</string>
+    <string name="rateTheApp">Оцените приложение!</string>
+    <string name="languageSettings">Язык</string>
+    <string name="themeSettings">Тема</string>
+    <string name="mainFavoritesSettings">Избранное в главном меню</string>
+    <string name="converterFavoritesSettings">Избранное конвертера</string>
+    <string name="emailSelectMenu">"Выберите электронную почту: "</string>
+    <string name="uzs">сум</string>
+    <string name="languagesListName">Язык</string>
+    <string name="englishLanguage">Английский</string>
+    <string name="russianLanguage">Русский</string>
+    <string name="uzbekLanguage">Узбекский</string>
+</resources>

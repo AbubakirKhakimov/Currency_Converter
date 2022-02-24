@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Currency converter</string>
+    <string name="intro_text">Welcome to\ncurrency converter</string>
+    <string name="converterFragmentName">Converter</string>
+    <string name="uzbCurrencyName">Uzbek sum</string>
+    <string name="favoritesFragmentName">Favorites</string>
+    <string name="homeFragmentName">Main</string>
+    <string name="homeFragmentTitle">Today\'s exchange rates</string>
+    <string name="notConnectionTitle">Server connection lost!</string>
+    <string name="notConnectionAdvice">Please check your internet connection and try again!</string>
+    <string name="listCurrencyFragmentName">Currencies</string>
+    <string name="settingsFragmentName">Settings</string>
+    <string name="contactDeveloper">Contact us!</string>
+    <string name="rateTheApp">Evaluate the app!</string>
+    <string name="languageSettings">Language</string>
+    <string name="themeSettings">Theme</string>
+    <string name="mainFavoritesSettings">Main favorites</string>
+    <string name="converterFavoritesSettings">Converter favorites</string>
+    <string name="emailSelectMenu">Select Email:</string>
+    <string name="uzs">sum</string>
+    <string name="languagesListName">Language</string>
+    <string name="englishLanguage">English</string>
+    <string name="russianLanguage">Russian</string>
+    <string name="uzbekLanguage">Uzbek</string>
+</resources>

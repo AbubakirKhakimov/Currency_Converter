@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Valyuta konvertori</string>
+    <string name="intro_text">Valyutalar konverteriga\nxush kelibsiz</string>
+    <string name="converterFragmentName">Konverter</string>
+    <string name="uzbCurrencyName">O\'zbekiston so\'mi</string>
+    <string name="favoritesFragmentName">Sevimlilar</string>
+    <string name="homeFragmentName">Bosh sahifa</string>
+    <string name="homeFragmentTitle">Bugungi valyuta kurslari</string>
+    <string name="notConnectionTitle">Server bilan aloqa yo\'qoldi!</string>
+    <string name="notConnectionAdvice">Iltimos, internet aloqangizni tekshiring va qayta urinib ko\'ring!</string>
+    <string name="listCurrencyFragmentName">Valyutalar</string>
+    <string name="settingsFragmentName">Sozlamalar</string>
+    <string name="contactDeveloper">Biz bilan bog\'laning!</string>
+    <string name="rateTheApp">Ilovani baholang!</string>
+    <string name="languageSettings">Til</string>
+    <string name="themeSettings">Mavzu</string>
+    <string name="mainFavoritesSettings">Bosh sahifa sevimlilari</string>
+    <string name="converterFavoritesSettings">Konverter sevimlilari</string>
+    <string name="emailSelectMenu">Elektron pochtani tanlang:</string>
+    <string name="uzs">so\'m</string>
+    <string name="languagesListName">Til</string>
+    <string name="englishLanguage">Ingliz</string>
+    <string name="russianLanguage">Rus</string>
+    <string name="uzbekLanguage">O\'zbek</string>
+</resources>
