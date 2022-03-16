@@ -1,10 +1,10 @@
-package com.example.currencyconverter.activities
+package com.x_a_technologies.currency_converter.activities
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.airbnb.lottie.LottieAnimationView
-import com.example.currencyconverter.R
+import com.x_a_technologies.currency_converter.R
 
 class LoadingActivity : AppCompatActivity() {
 

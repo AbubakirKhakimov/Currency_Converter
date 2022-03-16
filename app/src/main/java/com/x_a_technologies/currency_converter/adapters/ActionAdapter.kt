@@ -1,13 +1,13 @@
-package com.example.currencyconverter.adapters
+package com.x_a_technologies.currency_converter.adapters
 
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.currencyconverter.datas.CurrencyData
-import com.example.currencyconverter.datas.DataLists
-import com.example.currencyconverter.R
-import com.example.currencyconverter.databinding.ActivityItemLayoutBinding
+import com.x_a_technologies.currency_converter.R
+import com.x_a_technologies.currency_converter.databinding.ActivityItemLayoutBinding
+import com.x_a_technologies.currency_converter.datas.CurrencyData
+import com.x_a_technologies.currency_converter.datas.DataLists
 import java.util.*
 
 class ActionAdapter: RecyclerView.Adapter<ActionAdapter.ItemHolder>() {
@@ -32,7 +32,7 @@ class ActionAdapter: RecyclerView.Adapter<ActionAdapter.ItemHolder>() {
         return DataLists.currancyDataList.size
     }
 
-    fun analisLanguage(item:CurrencyData):String{
+    fun analisLanguage(item: CurrencyData):String{
         if (language.isEmpty()){
             read()
         }

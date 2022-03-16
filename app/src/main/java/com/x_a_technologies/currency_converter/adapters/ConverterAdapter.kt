@@ -1,4 +1,4 @@
-package com.example.currencyconverter.adapters
+package com.x_a_technologies.currency_converter.adapters
 
 import android.content.Context
 import android.content.Context.INPUT_METHOD_SERVICE
@@ -10,12 +10,11 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.view.inputmethod.InputMethodManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.currencyconverter.datas.CurrencyData
-import com.example.currencyconverter.datas.DataLists
-import com.example.currencyconverter.databinding.ActivityConverterItemLayoutBinding
+import com.x_a_technologies.currency_converter.databinding.ActivityConverterItemLayoutBinding
+import com.x_a_technologies.currency_converter.datas.CurrencyData
+import com.x_a_technologies.currency_converter.datas.DataLists
 import java.text.DecimalFormat
 import java.util.*
-import kotlin.collections.ArrayList
 
 interface ConverterAdapterCallBack{
     fun itemOnClick()
@@ -198,7 +197,7 @@ class ConverterAdapter(val callBack: ConverterAdapterCallBack):
         }
     }
 
-    fun analisLanguage(item:CurrencyData):String{
+    fun analisLanguage(item: CurrencyData):String{
         if (language.isEmpty()){
             read()
         }

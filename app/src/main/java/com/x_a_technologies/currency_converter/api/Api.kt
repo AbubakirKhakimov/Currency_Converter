@@ -1,6 +1,6 @@
-package com.example.currencyconverter.api
+package com.x_a_technologies.currency_converter.api
 
-import com.example.currencyconverter.datas.CurrencyData
+import com.x_a_technologies.currency_converter.datas.CurrencyData
 import retrofit2.Call
 import retrofit2.http.GET
 

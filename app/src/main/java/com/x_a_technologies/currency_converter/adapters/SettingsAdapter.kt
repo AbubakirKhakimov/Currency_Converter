@@ -1,15 +1,16 @@
-package com.example.currencyconverter.adapters
+package com.x_a_technologies.currency_converter.adapters
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.currencyconverter.datas.SettingsData
-import com.example.currencyconverter.databinding.ActivitySettingsItemLayoutBinding
+import com.x_a_technologies.currency_converter.databinding.ActivitySettingsItemLayoutBinding
+import com.x_a_technologies.currency_converter.datas.SettingsData
+
 interface CallBackSettings{
     fun onClick(position: Int)
 }
 
-class SettingsAdapter(val itemsDataList:ArrayList<SettingsData>,val callBackSettings: CallBackSettings):RecyclerView.Adapter<SettingsAdapter.ItemHolder>() {
+class SettingsAdapter(val itemsDataList:ArrayList<SettingsData>, val callBackSettings: CallBackSettings):RecyclerView.Adapter<SettingsAdapter.ItemHolder>() {
     inner class ItemHolder(val binding: ActivitySettingsItemLayoutBinding)
         :RecyclerView.ViewHolder(binding.root)
 

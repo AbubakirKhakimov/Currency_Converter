@@ -1,4 +1,4 @@
-package com.example.currencyconverter.fragments
+package com.x_a_technologies.currency_converter.fragments
 
 import android.content.Context.MODE_PRIVATE
 import android.os.Bundle
@@ -6,16 +6,16 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.example.currencyconverter.adapters.SettingsAdapter
-import com.example.currencyconverter.datas.SettingsData
-import com.example.currencyconverter.databinding.FragmentSettingsBinding
+import com.x_a_technologies.currency_converter.adapters.SettingsAdapter
+import com.x_a_technologies.currency_converter.datas.SettingsData
+import com.x_a_technologies.currency_converter.databinding.FragmentSettingsBinding
 import android.content.Intent
 import android.content.SharedPreferences
 import android.net.Uri
-import com.example.currencyconverter.adapters.CallBackSettings
-import com.example.currencyconverter.datas.DataLists
-import com.example.currencyconverter.activities.MainActivity
-import com.example.currencyconverter.R
+import com.x_a_technologies.currency_converter.adapters.CallBackSettings
+import com.x_a_technologies.currency_converter.datas.DataLists
+import com.x_a_technologies.currency_converter.activities.MainActivity
+import com.x_a_technologies.currency_converter.R
 import com.google.android.material.bottomsheet.BottomSheetDialog
 import java.util.*
 import kotlin.collections.ArrayList
@@ -23,7 +23,7 @@ import kotlin.collections.ArrayList
 import android.widget.TextView
 
 
-class SettingsFragment : Fragment(),CallBackSettings {
+class SettingsFragment : Fragment(), CallBackSettings {
 
     lateinit var binding: FragmentSettingsBinding
     val itemsDataList = ArrayList<SettingsData>()
@@ -45,10 +45,14 @@ class SettingsFragment : Fragment(),CallBackSettings {
         pref = context?.getSharedPreferences("SettingsFile", MODE_PRIVATE)!!
 
         itemsDataList.add(SettingsData(getString(R.string.languageSettings),analisLanguage()))
-        itemsDataList.add(SettingsData(getString(R.string.mainFavoritesSettings)
-            ,selectToString(DataLists.favoritesSelectedList)))
-        itemsDataList.add(SettingsData(getString(R.string.converterFavoritesSettings)
-            ,selectToString(DataLists.convFavoritesSelectedList)))
+        itemsDataList.add(
+            SettingsData(getString(R.string.mainFavoritesSettings)
+            ,selectToString(DataLists.favoritesSelectedList))
+        )
+        itemsDataList.add(
+            SettingsData(getString(R.string.converterFavoritesSettings)
+            ,selectToString(DataLists.convFavoritesSelectedList))
+        )
 
         binding.settingsRecyclerView.adapter = SettingsAdapter(itemsDataList, this)
 

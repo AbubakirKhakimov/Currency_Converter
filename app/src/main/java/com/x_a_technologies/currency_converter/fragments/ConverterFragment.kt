@@ -1,4 +1,4 @@
-package com.example.currencyconverter.fragments
+package com.x_a_technologies.currency_converter.fragments
 
 import android.content.Context
 import android.content.res.Configuration
@@ -11,11 +11,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.view.inputmethod.InputMethodManager
-import com.example.currencyconverter.adapters.ConverterAdapter
-import com.example.currencyconverter.adapters.ConverterAdapterCallBack
-import com.example.currencyconverter.datas.DataLists
-import com.example.currencyconverter.activities.MainActivity
-import com.example.currencyconverter.databinding.FragmentConverterBinding
+import com.x_a_technologies.currency_converter.adapters.ConverterAdapter
+import com.x_a_technologies.currency_converter.adapters.ConverterAdapterCallBack
+import com.x_a_technologies.currency_converter.datas.DataLists
+import com.x_a_technologies.currency_converter.activities.MainActivity
+import com.x_a_technologies.currency_converter.databinding.FragmentConverterBinding
 import java.text.DecimalFormat
 
 class ConverterFragment : Fragment(), ConverterAdapterCallBack {

@@ -1,18 +1,18 @@
-package com.example.currencyconverter.activities
+package com.x_a_technologies.currency_converter.activities
 
 import android.content.Intent
 import android.content.res.Configuration
 import android.os.Build
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.currencyconverter.databinding.ActivityMainBinding
+import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
-import com.example.currencyconverter.datas.DataLists
-import com.example.currencyconverter.R
-import com.example.currencyconverter.fragments.ConverterFragment
-import com.example.currencyconverter.fragments.HomeFragment
-import com.example.currencyconverter.fragments.ListCurrencyFragment
-import com.example.currencyconverter.fragments.SettingsFragment
+import com.x_a_technologies.currency_converter.R
+import com.x_a_technologies.currency_converter.databinding.ActivityMainBinding
+import com.x_a_technologies.currency_converter.datas.DataLists
+import com.x_a_technologies.currency_converter.fragments.ConverterFragment
+import com.x_a_technologies.currency_converter.fragments.HomeFragment
+import com.x_a_technologies.currency_converter.fragments.ListCurrencyFragment
+import com.x_a_technologies.currency_converter.fragments.SettingsFragment
 import java.util.*
 
 open class MainActivity : AppCompatActivity() {

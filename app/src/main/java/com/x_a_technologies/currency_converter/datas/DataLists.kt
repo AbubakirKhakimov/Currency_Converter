@@ -1,4 +1,4 @@
-package com.example.currencyconverter.datas
+package com.x_a_technologies.currency_converter.datas
 
 import android.content.Context
 import java.io.*

@@ -1,15 +1,15 @@
-package com.example.currencyconverter.fragments
+package com.x_a_technologies.currency_converter.fragments
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.example.currencyconverter.adapters.ActionAdapter
-import com.example.currencyconverter.datas.CurrencyData
-import com.example.currencyconverter.datas.DataLists
-import com.example.currencyconverter.api.Api
-import com.example.currencyconverter.databinding.FragmentListCurrencyBinding
+import com.x_a_technologies.currency_converter.adapters.ActionAdapter
+import com.x_a_technologies.currency_converter.datas.CurrencyData
+import com.x_a_technologies.currency_converter.datas.DataLists
+import com.x_a_technologies.currency_converter.api.Api
+import com.x_a_technologies.currency_converter.databinding.FragmentListCurrencyBinding
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response

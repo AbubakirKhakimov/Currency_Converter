@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".fragments.SettingsFragment">
+    tools:context="com.x_a_technologies.currency_converter.fragments.SettingsFragment">
 
     <TextView
         android:layout_width="match_parent"

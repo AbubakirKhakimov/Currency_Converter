@@ -1,16 +1,16 @@
-package com.example.currencyconverter.fragments
+package com.x_a_technologies.currency_converter.fragments
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.activity.OnBackPressedCallback
-import com.example.currencyconverter.adapters.FavoritesAdapter
-import com.example.currencyconverter.datas.DataLists
-import com.example.currencyconverter.activities.MainActivity
-import com.example.currencyconverter.R
-import com.example.currencyconverter.databinding.FragmentFavoritesSelectionBinding
+import androidx.fragment.app.Fragment
+import com.x_a_technologies.currency_converter.R
+import com.x_a_technologies.currency_converter.activities.MainActivity
+import com.x_a_technologies.currency_converter.adapters.FavoritesAdapter
+import com.x_a_technologies.currency_converter.databinding.FragmentFavoritesSelectionBinding
+import com.x_a_technologies.currency_converter.datas.DataLists
 
 class FavoritesSelectionFragment(val callFragmentName:String,val settingsMode:Boolean=false) : Fragment() {
 

@@ -1,12 +1,12 @@
-package com.example.currencyconverter.activities
+package com.x_a_technologies.currency_converter.activities
 
 import android.content.Intent
 import android.content.SharedPreferences
 import android.os.Build
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.currencyconverter.datas.DataLists
-import com.example.currencyconverter.R
+import androidx.appcompat.app.AppCompatActivity
+import com.x_a_technologies.currency_converter.R
+import com.x_a_technologies.currency_converter.datas.DataLists
 import java.util.*
 
 class SettingsApplyActivity : AppCompatActivity() {

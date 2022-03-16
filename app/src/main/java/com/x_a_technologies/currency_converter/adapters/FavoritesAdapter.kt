@@ -1,4 +1,4 @@
-package com.example.currencyconverter.adapters
+package com.x_a_technologies.currency_converter.adapters
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -7,11 +7,10 @@ import android.graphics.Color
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.currencyconverter.datas.CurrencyData
-import com.example.currencyconverter.datas.DataLists
-import com.example.currencyconverter.databinding.ActivityFavoritesItemLayoutBinding
+import com.x_a_technologies.currency_converter.databinding.ActivityFavoritesItemLayoutBinding
+import com.x_a_technologies.currency_converter.datas.CurrencyData
+import com.x_a_technologies.currency_converter.datas.DataLists
 import java.util.*
-import kotlin.collections.ArrayList
 
 class FavoritesAdapter(val list:ArrayList<Boolean>, val fragmentName:String): RecyclerView.Adapter<FavoritesAdapter.ItemHolder>() {
     inner class ItemHolder(val binding: ActivityFavoritesItemLayoutBinding): RecyclerView.ViewHolder(binding.root)

@@ -4,6 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activities.SettingsApplyActivity">
+    tools:context="com.x_a_technologies.currency_converter.activities.SettingsApplyActivity">
 
 </androidx.constraintlayout.widget.ConstraintLayout>

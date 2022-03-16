@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.currencyconverter">
+    package="com.x_a_technologies.currency_converter">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -14,14 +14,14 @@
         android:theme="@style/Theme.CurrencyConverter"
         android:usesCleartextTraffic="true">
         <activity
-            android:name=".activities.LoadingActivity"
+            android:name="com.x_a_technologies.currency_converter.activities.LoadingActivity"
             android:exported="false"/>
         <activity
-            android:name=".activities.MainActivity"
+            android:name="com.x_a_technologies.currency_converter.activities.MainActivity"
             android:exported="false"
             android:configChanges="uiMode"/>
         <activity
-            android:name=".activities.SettingsApplyActivity"
+            android:name="com.x_a_technologies.currency_converter.activities.SettingsApplyActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
